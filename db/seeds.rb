@@ -1,4 +1,4 @@
-Department.create(([{department_name: "Aguascalientes"},
+Department.create([{department_name: "Aguascalientes"},
 										{department_name: "Baja California"},
 										{department_name: "Baja California Sur"},
 										{department_name: "Campeche"},
@@ -30,7 +30,6 @@ Department.create(([{department_name: "Aguascalientes"},
 										{department_name: "Veracruz de Ignacio de la Llave"},
 										{department_name: "Yucatán"},
 										{department_name: "Zacatecas"}])
-
 Quote.create([{qoute_name: "Democracia"},
 							{qoute_name: "Federalismo articulado= Que todos los órganos de gobierno cumplan sus funciones"},
 							{qoute_name: "Seguridad Nacional"},

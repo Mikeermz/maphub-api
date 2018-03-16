@@ -16,12 +16,14 @@ ActiveRecord::Schema.define(version: 20180316013939) do
     t.string "department_name", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["department_name"], name: "index_departments_on_department_name", unique: true
   end
 
   create_table "quotes", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string "qoute_name", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["qoute_name"], name: "index_quotes_on_qoute_name", unique: true
   end
 
   create_table "survey_departments", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
