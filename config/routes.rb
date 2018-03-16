@@ -5,6 +5,7 @@ Rails.application.routes.draw do
     	resources :department do
     		collection do
         	get :all_departments
+        	post :create_survey
         end
       end
     	resources :quote do
