@@ -5,5 +5,6 @@ class CreateQuotes < ActiveRecord::Migration[5.1]
 
       t.timestamps
     end
+    add_index :quotes, :qoute_name, unique: true
   end
 end

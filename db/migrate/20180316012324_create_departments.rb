@@ -5,5 +5,6 @@ class CreateDepartments < ActiveRecord::Migration[5.1]
 
       t.timestamps
     end
+    add_index :departments, :department_name, unique: true
   end
 end
