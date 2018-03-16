@@ -1,12 +1,58 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+Department.create(([{department_name: "Aguascalientes"},
+										{department_name: "Baja California"},
+										{department_name: "Baja California Sur"},
+										{department_name: "Campeche"},
+										{department_name: "Chiapas"},
+										{department_name: "Chihuahua"},
+										{department_name: "Ciudad de México"},
+										{department_name: "Coahuila de Zaragoza"},
+										{department_name: "Colima"},
+										{department_name: "Durango"},
+										{department_name: "Estado de México"},
+										{department_name: "Guanajuato"},
+										{department_name: "Guerrero"},
+										{department_name: "Hidalgo"},
+										{department_name: "Jalisco"},
+										{department_name: "Michoacán de Ocampo"},
+										{department_name: "Morelos"},
+										{department_name: "Nayarit"},
+										{department_name: "Nuevo León"},
+										{department_name: "Oaxaca"},
+										{department_name: "Puebla"},
+										{department_name: "Querétaro"},
+										{department_name: "Quintana Roo"},
+										{department_name: "San Luis Potosí"},
+										{department_name: "Sinaloa"},
+										{department_name: "Sonora"},
+										{department_name: "Tabasco"},
+										{department_name: "Tamaulipas"},
+										{department_name: "Tlaxcala"},
+										{department_name: "Veracruz de Ignacio de la Llave"},
+										{department_name: "Yucatán"},
+										{department_name: "Zacatecas"}])
 
-
-# Department.create([{ department_name: 'Nuevo Leon' }, { department_name: 'Oaxaca' }])
-# Quote.create(qoute_name: "Ejemplo de quote")
-
+Quote.create([{qoute_name: "Democracia"},
+							{qoute_name: "Federalismo articulado= Que todos los órganos de gobierno cumplan sus funciones"},
+							{qoute_name: "Seguridad Nacional"},
+							{qoute_name: "Defensa Exterior e Interior: Militarización"},
+							{qoute_name: "Seguridad Pública"},
+							{qoute_name: "Sistema de Justicia Penal"},
+							{qoute_name: "Derechos humanos"},
+							{qoute_name: "Combate a la corrupción"},
+							{qoute_name: "Desigualdad y discriminación"},
+							{qoute_name: "Salud"},
+							{qoute_name: "Sistema de Seguridad Social= Programas de desarrollo y apoyo a familias"},
+							{qoute_name: "Educación"},
+							{qoute_name: "Cultura y Deporte"},
+							{qoute_name: "Ciencia y tecnología"},
+							{qoute_name: "Economía y acceso a financiamiento"},
+							{qoute_name: "Empleo"},
+							{qoute_name: "Desarrollo sustentable"},
+							{qoute_name: "Energía"},
+							{qoute_name: "Minería"},
+							{qoute_name: "Sector agroalimentario"},
+							{qoute_name: "Sector turístico"},
+							{qoute_name: "Desarrollo Regional"},
+							{qoute_name: "Presencia Global"},
+							{qoute_name: "Libre Comercio"},
+							{qoute_name: "Migración"}])
