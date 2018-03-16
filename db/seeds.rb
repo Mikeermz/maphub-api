@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+# Department.create([{ department_name: 'Nuevo Leon' }, { department_name: 'Oaxaca' }])
+# Quote.create(qoute_name: "Ejemplo de quote")
+
